@@ -22,4 +22,17 @@ public class CalculatorTest {
         assertEquals("The sum of negative numbers is correct", expectedValue, actualResult);
     }
 
+    @Test
+    public void subtractTwoPositiveNumbers() {
+        int expectedValue = 10;
+        int actualResult = calculator.substract(20,10);
+        assertEquals("The sum of positive numbers is correct", expectedValue, actualResult);
+    }
+
+    @Test
+    public void subtractTwoNegativeNumbers() {
+        int expectedValue = -10;
+        int actualResult = calculator.substract(-20,-10);
+        assertEquals("The sum of negative numbers is correct", expectedValue, actualResult);
+    }
 }

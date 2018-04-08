@@ -2,9 +2,12 @@ package com.khairul.tdd;
 
 public class Calculator {
 
-    public int add(int i, int i1) {
-        return 0;
+    public int add(int num1, int num2) {
+        return num1 + num2;
     }
 
+    public int substract(int num1, int num2) {
+        return 0;
+    }
 }
 
